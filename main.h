@@ -1,9 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-#include <stdarg.h> /* va_list */
-#include <stdlib.h> /* malloc, free */
-#include <unistd.h> /* write */
+#include <stdarg.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 /* helper functions */
 char* (*get_func(char i))(va_list);
@@ -30,8 +29,8 @@ char *itoOctal(va_list list);
 
 typedef struct types
 {
-	char id;
-	char* (*func)(va_list);
+ char id;
+ char* (*func)(va_list);
 } print;
 
 #endif
