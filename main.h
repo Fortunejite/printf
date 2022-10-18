@@ -1,9 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-#include <stdarg.h> /* va_list */
-#include <stdlib.h> /* malloc, free */
-#include <unistd.h> /* write */
+#include <stdarg.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 /* helper functions */
 char* (*get_func(char i))(va_list);
