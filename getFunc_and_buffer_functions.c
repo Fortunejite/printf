@@ -16,13 +16,8 @@ char* (*get_func(char i))(va_list)
 		{'i', print_d},
 		{'b', itob},
 		{'R', rot13},
-		{'u', print_unsigned},
 		{'r', rev_string},
 		{'o', itoOctal},
-		{'S', print_bigS},
-		{'p', print_address},
-		{'x', print_hex},
-		{'X', print_hex_big},
 		{'\0', NULL}
 	};
 
